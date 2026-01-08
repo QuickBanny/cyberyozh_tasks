@@ -159,7 +159,7 @@ make test
 # Запуск тестов пользователей
 make test-users
 
-# Запуск тестов задач  
+# Запуск тестов задач
 make test-tasks
 
 # Запуск unit тестов
@@ -213,17 +213,17 @@ cyberyozh/
 
 ### Слои архитектуры
 
-- **Domain Layer**: 
+- **Domain Layer**:
   - Доменные сущности (`Task`, `User`, `TaskComment`)
   - Бизнес-сервисы (`TaskService`, `UserService`, `CommentService`)
   - Доменные исключения и интерфейсы
 
-- **Infrastructure Layer**: 
+- **Infrastructure Layer**:
   - Django модели (`TaskModel`, `User`)
   - Репозитории (`DjangoTaskRepository`, `DjangoUserRepository`)
   - JWT токены и аутентификация
 
-- **Endpoints Layer**: 
+- **Endpoints Layer**:
   - API контроллеры (`TaskViewSet`, аутентификация views)
   - Сериализаторы для входных данных и ответов
   - OpenAPI документация
