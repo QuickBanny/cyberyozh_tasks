@@ -1,8 +1,0 @@
-# Development dependencies for linting and formatting
-pre-commit==3.3.3
-black==23.7.0
-isort==5.12.0
-flake8==6.0.0
-mypy==1.5.1
-django-stubs==4.2.3
-djangorestframework-stubs==3.14.2
